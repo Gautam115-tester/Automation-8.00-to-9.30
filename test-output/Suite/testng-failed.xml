@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="edge(failed)">
+    <parameter name="browserName" value="edge"/>
+    <classes>
+      <class name="com.TestNG.TestCasesOnFrontaccounting">
+        <methods>
+          <include name="logout"/>
+          <include name="closeBrowser"/>
+          <include name="SalesOrderEntry"/>
+          <include name="openBrowser"/>
+          <include name="SalesQuotationEntry"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.TestNG.TestCasesOnFrontaccounting -->
+    </classes>
+  </test> <!-- edge(failed) -->
+  <test thread-count="5" name="firefox(failed)">
+    <parameter name="browserName" value="firefox"/>
+    <classes>
+      <class name="com.TestNG.TestCasesOnFrontaccounting">
+        <methods>
+          <include name="logout"/>
+          <include name="closeBrowser"/>
+          <include name="SalesOrderEntry"/>
+          <include name="openBrowser"/>
+          <include name="SalesQuotationEntry"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.TestNG.TestCasesOnFrontaccounting -->
+    </classes>
+  </test> <!-- firefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,78 @@
+
+Excel --> xls --> 1990 to 2007 --> binary form because store structure very unstable . file highly corruped.
+Apache poi xls --> hssf --> horriable spreedSheet format.
+
+Excel --> xlsx --> 2007 to right now --> xml form 
+Apache poi xlsx --> xssf --> Xml spreadsheet format.
+
+workbook --> sheet --> row --> cell 
+
+index or indices --> start from 0
+
+
+hybrid driven framework --> combination of 2 different framework 
+                            1.data Driven framework --> test data from the excel --> multi testing puropse with different data.
+                            2.Keyword Driven Framework --> test step in form of keyword all this data comes from excel file. --> in different scenario we can used same keywords.
+                            
+                            
+                            
+test data :- valid (demouser,password)    -->1.browser launch kar na 2. navigate to frontAccounting site 3.clear username and password 4. click on login 5.validate wheather user is login or not . test pass or test failed.
+             invalid (alpha,alpha@1234)   -->1.browser launch kar na 2. navigate to frontAccounting site 3.clear username and password 4. click on login 5.validate wheather user is login or not . test pass or test failed.
+             
+             
+             
+TestNG   
+1. pre-condition --> actually testing it should be perform everytime without fail.  // before 
+2. test condition --> Actually test ko perform karega. with proper validation.   // test
+3. post condition --> after test done this will cleanup process. (logout , browser close , etc).  // after
+
+
+
+2 test case 
+1.verify the functionality of sales Quotation entry
+1. pre condition : - 1. user browser launch
+                     2. user will navigate 2 frontAccounting site.
+                     3. login should be login  
+2. test condition : - user will click on Sales Quotation Entry                     
+3. post condition : - 1.user will logout
+                      2. close the browser.
+
+
+
+2.Verify the functionality of sales order entry
+1. pre condition : - 1. user browser launch
+                     2. user will navigate 2 frontAccounting site.
+                     3. login should be login  
+2. test condition : - user will click on sales order Entry
+3. post condition : - 1.user will logout
+                      2. close the browser.
+
+
+Assertion means validator --> expected result vs actual result
+
+cross Browsing 
+
+xml --> multiple test 2 and 3 , etc execute xml 
+
+xml --> parameter --> xml provide script insert in parameter.
+
+
+log4j config --> log4j log kis tera se save karna hai like console or file 
+                  log4j ka log ka format kaise raha ga.
+                  
+                  
+cucumber is an tools which used to archieve bdd framework
+Cucumber Gerkin language :- normal english language 
+
+user point view bdd user understable 
+
+this will generated report itself.
+
+feature --> gerkin langauage write 
+step Definiation --> code.
+Runner --> glue run (Execution control)
+
+
+
+
+

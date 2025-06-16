@@ -1,0 +1,14 @@
+2025-05-27 20:34:52.367 [main] INFO    com.Logger.SauceDemo - Edge Browser has been launch
+2025-05-27 20:34:55.676 [main] INFO    com.Logger.SauceDemo - user has been redirected to Sauce demo site.
+2025-05-27 20:34:57.770 [main] INFO    com.Logger.SauceDemo - User Enter user name in username field
+2025-05-27 20:34:59.829 [main] INFO    com.Logger.SauceDemo - User Enter password in password field
+2025-05-27 20:35:01.919 [main] INFO    com.Logger.SauceDemo - user click on login button
+2025-05-27 20:35:03.969 [main] INFO    com.Logger.SauceDemo - user click on burger button
+2025-05-27 20:35:06.043 [main] INFO    com.Logger.SauceDemo - user click on logout button
+2025-05-27 20:35:52.342 [main] INFO    com.Logger.SauceDemo - Edge Browser has been launch
+2025-05-27 20:35:55.116 [main] INFO    com.Logger.SauceDemo - user has been redirected to Sauce demo site.
+2025-05-27 20:35:57.194 [main] INFO    com.Logger.SauceDemo - User Enter user name in username field
+2025-05-27 20:35:59.242 [main] INFO    com.Logger.SauceDemo - User Enter password in password field
+2025-05-27 20:36:01.332 [main] INFO    com.Logger.SauceDemo - user click on login button
+2025-05-27 20:36:03.406 [main] INFO    com.Logger.SauceDemo - user click on burger button
+2025-05-27 20:36:05.478 [main] INFO    com.Logger.SauceDemo - user click on logout button

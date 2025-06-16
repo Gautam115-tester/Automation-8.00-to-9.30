@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test  name="edge">  <!-- first test case with different browser  -->
+  <parameter name="browserName" value="edge"></parameter>
+    <classes>
+      <class name="com.TestNG.TestCasesOnFrontaccounting"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test  name="firefox">   <!-- second test case with different browser -->
+  <parameter name="browserName" value="firefox"></parameter>
+    <classes>
+      <class name="com.TestNG.TestCasesOnFrontaccounting"/>
+    </classes>
+  </test>
+</suite> <!-- Suite -->
